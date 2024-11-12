@@ -1,25 +1,26 @@
 {
   "expo": {
-    "name": "be-okay-improve",
-    "slug": "be-okay-improve",
+    "name": "Be-Okay",
+    "slug": "Be-Okay",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/appicon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/appicon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#8BB85C"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/appicon.png",
+        "backgroundColor": "#8BB85C"
+      },
+      "package": "com.muhayimana_ambroise123.BeOkay"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "30ba0648-7240-4f86-9f5f-e7bf577e7877"
+      }
     }
   }
 }
