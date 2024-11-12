@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "be-okay-improve",
-    "slug": "be-okay-improve",
+    "name": "Be-Okay",
+    "slug": "Be-Okay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.muhayimana_ambroise123.BeOkay"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "30ba0648-7240-4f86-9f5f-e7bf577e7877"
+      }
     }
   }
 }
